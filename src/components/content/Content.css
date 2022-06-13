@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#contBody{
+    background: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bigBox{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 850px;
+    background: white;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.bigBox .leftBox{
+    position: relative;
+    background: blue;
+    padding:40px;
+}
+
+.profileText{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    background-color: blue;
+}
+
+.profileText .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.profileText .imgBox img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2{
+    color:white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightblue;
+    background-color: blue;
+}
+
+.profileText h2 span{
+    font-size: .8em;
+}
+
+.bigBox .contactInfo .title{
+    color: white;
+    font-weight: 800;
+}
+.contactInfo{
+    padding-top: 40px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.contactInfo ul{
+position: relative;
+
+}
+
+.contactInfo ul li{
+    list-style: none;
+    position: relative;
+    background-color: blue;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+.bigBox .contactInfo-education .title{
+    color: white;
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.bigBox .contactInfo-education li{
+    margin-bottom: 15px;
+}
+
+.bigBox .contactInfo-education h5{
+    color:black;
+    font-weight: 600;
+}
+
+.bigBox .contactInfo-education h4{
+    font-weight: 600;
+}
+
+
+.bigBox .rightBox{
+    position: relative;
+    background: white;
+    padding:40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.rightBox p{
+    font-size: 18px;
+    color:blue;
+}
+
+.about-skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-skills .box h4{
+    color: gray;
+    font-weight: 500;
+}
+
+.about-skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: lightgrey;
+}
+
+.box .percent div{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    background: blue;
+}
+
+.projects{
+    margin-top: 50px;
+}
+
+.title3{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.projects .box{
+    display:flex;
+    flex-direction: row;
+    margin:30px 0;
+}
+
+.projects .box h4{
+    min-width: 100px;
+    color:gray;
+    width: 50%;
+    font-weight: 500;
+}
+
+.projects .box p{
+    margin:0 80px;
+    letter-spacing: .5px;
+    font-size: 14px;
+    color:black;
+}
