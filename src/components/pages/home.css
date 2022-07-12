@@ -1,5 +1,5 @@
 #homeContainer{
-    background: url('C:/ResumeProject/resume-website/public/videos/Arenal_Volcano.jpg') center center/cover no-repeat;
+    background: url('C:/ResumeProject/resume-website/src/Arenal_Volcano.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     object-fit: contain;
