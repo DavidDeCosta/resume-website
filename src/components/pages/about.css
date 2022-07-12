@@ -10,11 +10,34 @@ video {
     height: 100vh;
     width: 100%;
     object-fit: contain;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
-.inside{
-    color:white;
-    font-size:44px;
-    text-align: center;
-    padding-top: 80px;
-}
+div.inside {
+    --s:550px;  /*Size of the circle */
+    --p:15px;   /* padding */
+  
+    height: var(--s);
+    width: var(--s);
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    color:#fff;
+    font-size:26px;
+    text-align:center;
+  }
+  
+  .inside i,
+  .inside::before {
+    content: '';
+    float: left;
+    height:100%;
+    width: 50%;
+    shape-outside: radial-gradient(farthest-side at right, transparent calc(100% - var(--p)), #fff 0);
+  }
+  
+  .inside i {
+    float: right;
+    shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
+  }
