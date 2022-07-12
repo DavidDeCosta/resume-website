@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start":"react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,7 +43,7 @@
     ]
   },
   "engines" : { 
-    "npm" : ">=8.5.5",
-    "node" : ">=16.15.0"
+    "npm" : "8.5.5",
+    "node" : "16.15.0"
   }
 }
