@@ -5,7 +5,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
-import myImage from '../pages/profile3.jpg';
+import myImage from '../pics/profile3.jpg';
 
 const Resume=()=>{
     return(
