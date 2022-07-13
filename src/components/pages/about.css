@@ -53,8 +53,8 @@ div.inside {
   
   @media screen and (max-width: 768px) {
     div.inside {
-    --s:350px;  /*Size of the circle */
+    --s:400px;  /*Size of the circle */
     --p:15px;   /* padding */
-      font-size: 16px;
+    font-size: 16px;
     }
 }
