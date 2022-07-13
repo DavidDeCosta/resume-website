@@ -379,6 +379,7 @@ position: relative;
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 200;
+    font-size: 14px;
     }
 }
 
@@ -404,6 +405,7 @@ position: relative;
 
 @media screen and (max-width: 768px) {
     .bigBox .contactInfo-education h4{
+    font-size: 12px;
     font-weight: 400;
     }
 }
@@ -424,6 +426,18 @@ position: relative;
 
 
 @media screen and (max-width: 960px) {
+    .about{
+    padding-bottom: 10px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about{
+    padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 960px) {
     .bigBox .rightBox{
     padding:30px;
     }
@@ -438,24 +452,62 @@ position: relative;
 @media screen and (max-width: 960px) {
     .title2{
     margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 16px;
     }
   }
 
 @media screen and (max-width: 768px) {
     .title2{
     margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
     }
 }
 
 @media screen and (max-width: 960px) {
     .rightBox p{
     font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     }
   }
 
 @media screen and (max-width: 768px) {
     .rightBox p{
     font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .about{
+        margin-bottom: 15px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .about-skills .title2{
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about-skills .title2{
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }
 
@@ -468,6 +520,22 @@ position: relative;
 @media screen and (max-width: 768px) {
     .about-skills .box{
     grid-template-columns: 50px 1fr;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .title3{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .title3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
     }
 }
 
@@ -497,12 +565,14 @@ position: relative;
 
 @media screen and (max-width: 960px) {
     .projects .box h4{
+    font-size: 14px ;
     min-width: 60px;
     }
   }
 
 @media screen and (max-width: 768px) {
     .projects .box h4{
+    font-size: 12px ;
     min-width: 40px;
     }
 }
