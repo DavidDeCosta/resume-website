@@ -41,3 +41,20 @@ div.inside {
     float: right;
     shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
   }
+
+
+  @media screen and (max-width: 960px) {
+    div.inside {
+    --s:450px;  /*Size of the circle */
+    --p:15px;   /* padding */
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    div.inside {
+    --s:350px;  /*Size of the circle */
+    --p:15px;   /* padding */
+      font-size: 16px;
+    }
+}
