@@ -319,6 +319,7 @@ position: relative;
 
 @media screen and (max-width: 768px) {
     .bigBox .contactInfo .title{
+    text-align: center;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -349,8 +350,9 @@ position: relative;
 
 @media screen and (max-width: 768px) {
     .contactInfo ul li .icon{
+    display: block;
     width: 10px;
-    font-size: 8px;
+    font-size: 10px;
     }
 }
 
@@ -362,7 +364,8 @@ position: relative;
 
 @media screen and (max-width: 768px) {
     .contactInfo ul li .text{
-    font-size: 8px;
+    padding-left: 5px;
+    font-size: 10px;
     }
 }
 
@@ -371,6 +374,7 @@ position: relative;
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 300;
+    text-align: center;
     }
   }
 

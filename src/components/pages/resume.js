@@ -32,7 +32,7 @@ const Resume=()=>{
               </li>
               <li>
                 <span className='icon'><FontAwesomeIcon icon={faGlobe} /></span>
-                <span className='text'>morgantown WV 26508</span>
+                <span className='text'>Morgantown WV 26508</span>
               </li>
             </ul>
           </div>
