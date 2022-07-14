@@ -6,6 +6,7 @@ const About=()=>{
     return(
         <body id='aboutContainer'>
             <video src='/videos/video-2.mp4' autoPlay loop muted />
+            <video src='/videos/video-2.mp4' controls playsInline autoPlay loop muted />
         <div className='inside'>
             <i></i>
             My name is David DeCosta and I want to make the world a better place for my Family.<br></br>
