@@ -8,8 +8,8 @@ const Home = () => {
     <body id='homeContainer'>
       <img id='homePic' src={homeBackround} alt="theBackround"/>
         <div className='insideHome'>
-            There is No Place Like Home<br></br>
-            But get out and Travel!
+            There Is No Place Like Home<br></br>
+            But Get Out And Travel!
         </div> 
     </body>
   );
