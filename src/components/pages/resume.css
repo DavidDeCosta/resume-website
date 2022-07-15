@@ -57,12 +57,12 @@
 }
 
 .profileText h2{
-    color:white;
-    font-size: 24px;
+    color: BLACK;
+    font-size: 26px;
     margin-top: 20px;
     text-align: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid black;
     background-color: rgb(30, 168, 220);
 }
 
@@ -71,7 +71,6 @@
 }
 
 .bigBox .contactInfo .title{
-    color: white;
     font-weight: 800;
 }
 .contactInfo{
@@ -79,8 +78,9 @@
 }
 
 .bigBox .contactInfo .title{
+    color: black;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -109,10 +109,10 @@ position: relative;
 }
 
 .bigBox .contactInfo-education .title{
-    color: white;
+    color: black;
     margin-top: 40px;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
