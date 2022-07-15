@@ -5,7 +5,7 @@ import '../pages/about.css';
 const About=()=>{
     return(
         <body id='aboutContainer'>
-            <video src='/videos/video-2.mp4' loop autoPlay playsinline="true" disablePictureInPicture="true" />
+            <video src='/videos/video-2.mp4' loop autoPlay playsinline="true" disablePictureInPicture="true" autoplay="autoplay" />
         <div className='inside'>
             <i></i>
             My name is David DeCosta and I want to make the world a better place for my Family.<br></br>
