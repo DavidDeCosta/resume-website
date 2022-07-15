@@ -269,8 +269,8 @@ position: relative;
   
   @media screen and (max-width: 768px) {
     .profileText .imgBox {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     }
 }
 
