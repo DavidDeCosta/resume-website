@@ -5,7 +5,7 @@ import '../pages/about.css';
 const About=()=>{
     return(
         <body id='aboutContainer'>
-            
+            <video src='/videos/video-2.mp4' autoPlay loop muted />
             <video src='/videos/video-2.mp4' loop autoPlay playsinline="true" disablePictureInPicture="true" />
         <div className='inside'>
             <i></i>
