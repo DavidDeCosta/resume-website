@@ -19,6 +19,6 @@ export const NavLink = styled(Link)`
   padding:10px;
   cursor: pointer;
   &.active {
-    color: blue;
+    color: rgb(30, 168, 220);
   }
 `;
