@@ -320,8 +320,8 @@ position: relative;
 @media screen and (max-width: 768px) {
     .bigBox .contactInfo .title{
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 200;
     margin-bottom: 5px;
     }
 }
