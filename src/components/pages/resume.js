@@ -56,9 +56,9 @@ const Resume=()=>{
           <div className='rightBox'>
             <div className='about'>
               <h2 className='title2'>Profile</h2>
-              <p>Programming is not only interesting, it is important for the future. I have always been competative due to growing up 
-                playing sports. Chess and puzzles have been a lifelong hobby. Software development is like a puzzle the way you have
-                to get all the pieces together to form the whole product.</p>
+              <p>Programming is not only interesting, but also important for the future. I have always been competitive
+                 due to growing up playing sports. Chess and puzzles have been a lifelong hobby. Software development is like
+                  a puzzle the way you must get all the pieces together to form the whole product.</p>
             </div>
             <div className='about-skills'>
               <h2 className='title2'>Professional Skills</h2>
