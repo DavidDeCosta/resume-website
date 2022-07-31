@@ -114,8 +114,8 @@ const Resume=()=>{
                 <h4>Hashtable Collision</h4>
                   <p>
                     This program utilizes different insertion techniques into a Hashtable that deals with Collision. The user
-                    types in a name and a 3 digit key to either be inserted, deleted, or searched. The different techniques are:
-                    Linear probing, Quadratic probing, and Double hasing.
+                    types in a name and a 3 digit key to either be inserted, deleted, or searched. The different techniques are
+                    Linear probing, Quadratic probing, and Double hashing.
                   </p>
               </div>
               <div className='box'>
