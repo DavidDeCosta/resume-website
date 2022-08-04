@@ -89,7 +89,7 @@ const Resume=()=>{
               <div className='box'>
                 <h4>ReactJS</h4>
                 <div className='percent'>
-                <div style={{width: '60%'}}></div>
+                <div style={{width: '55%'}}></div>
                 </div>
               </div>
               <div className='box'>
