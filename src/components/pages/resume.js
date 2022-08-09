@@ -100,8 +100,8 @@ const Resume=()=>{
               </div>
             </div>
             
-            <div className='projects'>
-              <h2 className='title3'>Projects</h2>
+            <div className='projects'> 
+            <h2 className='title3'>Projects <a href = "https://github.com/DavidDeCosta">Github</a></h2>
               <div className='box'>
                 <h4>Dijkstra's Algorithm</h4>
                   <p>
