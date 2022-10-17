@@ -229,405 +229,356 @@ position: relative;
 
 
 @media screen and (max-width: 960px) {
-    .bigBox{
+    .bigBox
+    {
     max-width: 768px;
     min-height: 700px;
     }
-  }
 
-@media screen and (max-width: 768px) {
-    .bigBox{
-    max-width: 390px;
-    min-height: 200px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .leftBox{
+    .bigBox .leftBox
+    {
     padding:20px;
     }
-  }
 
-@media screen and (max-width: 768px) {
-    .bigBox .leftBox{
-    padding:2px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .profileText{
+    .profileText
+    {
     padding-bottom:10px;
     }
-  }
 
-@media screen and (max-width: 768px) {
-    .profileText{
-    padding-bottom:5px;
+    .profileText .imgBox 
+    {
+        width: 120px;
+        height: 120px;
     }
-}
 
-
-@media screen and (max-width: 960px) {
-    .profileText .imgBox {
-    width: 120px;
-    height: 120px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .profileText .imgBox {
-    width: 90px;
-    height: 90px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .profileText h2{
+    .profileText h2
+    {
         font-size: 16px;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .profileText h2{
-        font-size: 12px;
-    }
-}
 
-@media screen and (max-width: 960px) {
-    .profileText h2 span{
+    .profileText h2 span
+    {
         font-size: 15px;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .profileText h2 span{
-        font-size: 11px;
+
+    .contactInfo
+    {
+        padding-top: 20px;
     }
-}
 
-@media screen and (max-width: 960px) {
-    .contactInfo{
-    padding-top: 20px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .contactInfo{
-    padding-top: 10px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .contactInfo .title{
-    font-weight: 450;
-    margin-bottom: 10px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .contactInfo .title{
-    text-align: center;
-    font-size: 14px;
-    font-weight: 200;
-    margin-bottom: 5px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .contactInfo ul li{
-    margin: 5px 0;
-    font-weight: 700;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .contactInfo ul li{
-    font-size: 12px;
-    margin:0;
-    font-weight: 600;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .contactInfo ul li .icon{
-    width: 20px;
-    font-size: 14px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .contactInfo ul li .icon{
-    display: block;
-    width: 10px;
-    font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .contactInfo ul li .text{
-    font-size: 14px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .contactInfo ul li .text{
-    font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .contactInfo-education .title{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 300;
-    text-align: center;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .contactInfo-education .title{
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-weight: 200;
-    font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .contactInfo-education h5{
-    font-weight: 400;
-    padding-bottom: 5px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .contactInfo-education h5{
-    font-weight: 300;
-    padding-bottom: 5px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .contactInfo-education h4{
-    font-weight: 500;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .contactInfo-education h4{
-    font-size: 12px;
-    font-weight: 400;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .contactInfo-education h3{
-    font-weight: 600;
-    font-size: 16px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .contactInfo-education h3{
-    font-weight: 400;
-    font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 960px) {
-    .about{
-    padding-bottom: 10px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .about{
-    padding-bottom: 5px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .bigBox .rightBox{
-    padding:30px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .bigBox .rightBox{
-    padding:10px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .title2{
-    text-align: center;
-    margin-bottom: 5px;
-    margin-top: 0px;
-    font-size: 16px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .title2{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .rightBox p{
-    font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .rightBox p{
-    font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .about{
-        margin-bottom: 15px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .about{
+    .bigBox .contactInfo .title
+    {
+        font-weight: 450;
         margin-bottom: 10px;
     }
-}
 
-@media screen and (max-width: 960px) {
-    .about-skills .title2{
+    .bigBox .contactInfo ul li
+    {
+        margin: 5px 0;
+        font-weight: 700;
+    }
+
+    .contactInfo ul li .icon
+    {
+        width: 20px;
+        font-size: 14px;
+    }
+
+    .contactInfo ul li .text
+    {
+        font-size: 14px;
+    }
+
+    .bigBox .contactInfo-education .title
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .bigBox .contactInfo-education h5
+    {
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+
+    .bigBox .contactInfo-education h4
+    {
+        font-weight: 500;
+    }
+
+    .bigBox .contactInfo-education h3
+    {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .about
+    {
+        padding-bottom: 10px;
+    }
+
+    .bigBox .rightBox
+    {
+        padding:30px;
+    }
+
+    .title2
+    {
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+
+    .rightBox p
+    {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about
+    {
+        margin-bottom: 15px;
+    }
+
+    .about-skills .title2
+    {
         padding-top: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
-  }
 
-@media screen and (max-width: 768px) {
-    .about-skills .title2{
-        padding-top: 0px;
+    .about-skills .box
+    {
+        grid-template-columns: 100px 1fr;
+    }
+
+    .about-skills .box h4
+    {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .title3
+    {
+        text-align: center;
+        margin-bottom: 5px;
         margin-top: 0px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        font-size: 16px;
     }
-}
-
-@media screen and (max-width: 960px) {
-    .about-skills .box{
-    grid-template-columns: 100px 1fr;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .about-skills .box{
-    grid-template-columns: 50px 1fr;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .about-skills .box h4{
-    font-size: 14px;
-    font-weight: 400;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .about-skills .box h4{
-    font-size: 12px;
-    font-weight: 400;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .title3{
-    text-align: center;
-    margin-bottom: 5px;
-    margin-top: 0px;
-    font-size: 16px;
-    }
-
-    .title3 a{
+    .title3 a
+    {
         display: inline-block;
         font-size: 14px;
         padding-left: 20px;
     }
+
+    .projects
+    {
+        margin-top: 20px;
+    }
+
+    .projects .box
+    {
+        margin:10px 0;
+    }
+
+    .projects .box h4
+    {
+        font-size: 14px ;
+        min-width: 60px;
+    }
+
+    .projects .box p
+    {
+        margin:0 60px;
+        font-size: 12px;
+    }
+
   }
 
+
+
 @media screen and (max-width: 768px) {
-    .title3{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 14px;
+    .bigBox
+    {
+    max-width: 390px;
+    min-height: 200px;
     }
-    .title3 a{
+
+    .bigBox .leftBox
+    {
+        padding:2px;
+    }
+
+    .profileText
+    {
+        padding-bottom:5px;
+    }
+
+    .profileText .imgBox 
+    {
+        width: 90px;
+        height: 90px;
+    }
+
+    .profileText h2
+    {
+        font-size: 12px;
+    }
+
+    .profileText h2 span
+    {
+        font-size: 11px;
+    }
+
+    .contactInfo
+    {
+        padding-top: 10px;
+    }
+
+    .bigBox .contactInfo .title
+    {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+
+    .bigBox .contactInfo ul li
+    {
+        font-size: 12px;
+        margin:0;
+        font-weight: 600;
+    }
+
+    .contactInfo ul li .icon
+    {
+        display: block;
+        width: 10px;
+        font-size: 10px;
+    }
+
+    .contactInfo ul li .text
+    {
+        font-size: 10px;
+    }
+
+    .bigBox .contactInfo-education .title
+    {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-weight: 200;
+        font-size: 14px;
+    }
+
+    .bigBox .contactInfo-education h5
+    {
+        font-weight: 300;
+        padding-bottom: 5px;
+    }
+
+    .bigBox .contactInfo-education h4
+    {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .bigBox .contactInfo-education h3
+    {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .about
+    {
+        padding-bottom: 5px;
+    }
+
+    .bigBox .rightBox
+    {
+        padding:10px;
+    }
+
+    .title2
+    {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .rightBox p
+    {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about
+    {
+        margin-bottom: 10px;
+    }
+
+    .about-skills .title2
+    {
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .about-skills .box
+    {
+        grid-template-columns: 50px 1fr;
+    }
+
+    .about-skills .box h4
+    {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .title3
+    {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .title3 a
+    {
         display: inline-block;
         font-size: 12px;
         padding-left: 20px;
     }
-}
 
-@media screen and (max-width: 960px) {
-    .projects{
-    margin-top: 20px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .projects{
+    .projects
+    {
         margin-top: 10px;
     }
-}
 
-@media screen and (max-width: 960px) {
-    .projects .box{
-        margin:10px 0;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .projects .box{
-        
-    display: block;
+    .projects .box
+    {
+        display: block;
         margin:5px 0;
     }
-}
 
-@media screen and (max-width: 960px) {
-    .projects .box h4{
-    font-size: 14px ;
-    min-width: 60px;
+    .projects .box h4
+    {
+        text-align: center;
+        font-size: 12px ;
+        min-width: 40px;
+        font-weight: 550;
     }
-  }
 
-@media screen and (max-width: 768px) {
-    .projects .box h4{
-    text-align: center;
-    font-size: 12px ;
-    min-width: 40px;
-    font-weight: 550;
+    .projects .box p
+    {
+        margin:0 0px;
+        font-size: 10px;
     }
-}
 
-@media screen and (max-width: 960px) {
-    .projects .box p{
-    margin:0 60px;
-    font-size: 12px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .projects .box p{
-    margin:0 0px;
-    font-size: 10px;
-    }
 }
