@@ -9,10 +9,9 @@ const About=()=>{
         <div className='inside'>
             <i></i>
             My name is David DeCosta and I want to make the world a better place for my family.<br></br>
-            Technology has many pros and cons but the pros far outweigh the cons.<br></br>
             Software has and will continue to be an amazing solution to many problems and I want to be part of the solution.<br></br>
             After years of working various jobs including being a personal Trainer, Manager of a Mobile detailing company,
-             CDL Truck driver, and working at several different restaurants I have found my passion.
+             CDL Truck driver, and working at several different restaurants I have found the path I want be on.
         </div>
         </body>
     );
