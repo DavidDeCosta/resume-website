@@ -11,7 +11,7 @@ const About=()=>{
             My name is David DeCosta and I want to make the world a better place for my family.<br></br>
             Software has and will continue to be an amazing solution to many problems and I want to be part of the solution.<br></br>
             After years of working various jobs including being a personal Trainer, Manager of a Mobile detailing company,
-             CDL Truck driver, and working at several different restaurants I have found the path I want be on.
+             CDL Truck driver, and working at several different restaurants I have found the path I want to be on.
         </div>
         </body>
     );
