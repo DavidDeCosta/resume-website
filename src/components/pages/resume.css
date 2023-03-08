@@ -407,8 +407,9 @@ position: relative;
     
     .bigBox
     {
+    margin-top: -60px;
     max-width: 580px;
-    min-height: 750px;
+    min-height: 820px;
     }
 
     .bigBox .leftBox
