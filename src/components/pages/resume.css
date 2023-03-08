@@ -404,10 +404,11 @@ position: relative;
 
 
 @media screen and (max-width: 768px) {
+    
     .bigBox
     {
-    max-width: 390px;
-    min-height: 200px;
+    max-width: 580px;
+    min-height: 750px;
     }
 
     .bigBox .leftBox
