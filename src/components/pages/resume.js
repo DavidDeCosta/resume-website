@@ -42,8 +42,8 @@ const Resume=()=>{
               <ul>
                 <li>
                   <h5>2020-Present</h5>
-                  <h3>Bachelors: Computer Science</h3>
-                  <h3>Minor: Psychology</h3>
+                  <h3>Bachelors: Computer Science <br />
+                  Minor: Psychology</h3>
                   <h4>Fairmont State University</h4>
                 </li>
                 <li>
