@@ -71,7 +71,7 @@ const Resume=()=>{
               <div className='box'>
                 <h4>Python</h4>
                 <div className='percent'>
-                <div style={{width: '75%'}}></div>
+                <div style={{width: '65%'}}></div>
                 </div>           
               </div>
               <div className='box'>
@@ -95,7 +95,7 @@ const Resume=()=>{
               <div className='box'>
                 <h4>Java</h4>
                 <div className='percent'>
-                <div style={{width: '70%'}}></div>
+                <div style={{width: '80%'}}></div>
                 </div>
               </div>
             </div>
@@ -113,18 +113,16 @@ const Resume=()=>{
               <div className='box'>
                 <h4>Hashtable Collision</h4>
                   <p>
-                    This program utilizes different insertion techniques into a Hashtable that deals with Collision. The user
-                    types in a name and a 3 digit key to either be inserted, deleted, or searched. The different techniques are
-                    Linear probing, Quadratic probing, and Double hashing.
+                  This software utilizes various insertion methods within a Hashtable designed to handle collisions. The user is prompted to enter a name and a 3-digit key for 
+                  insertion, deletion, or search operations. The available techniques include Linear Probing, Quadratic Probing, and Double Hashing.
                   </p>
               </div>
               <div className='box'>
-                <h4>Data Mining</h4>
+                <h4>Malware Project</h4>
                   <p>
-                    Worked in a team of 3 where we found a large dataset containing over 80,000 rows. Using excel and
-                    python scripts we cleaned the noisy data and created more attributes for each tuple. Using the application
-                    WEKA we ran different datamining techniques to classify missing data, generate association rules, 
-                    and cluster instances.
+                  I developed a server application that is designed to establish a connection with a client and subsequently handle any data transmitted from the client while 
+                  they engage in gameplay. Upon successful connection, the client automatically sends files stored on their system to the server. This process is entirely unnoticeable 
+                  to the client, who interacts with a graphical user interface (GUI) that enables them to manipulate color schemes by hovering over designated areas.
                   </p>
               </div>
             </div>
