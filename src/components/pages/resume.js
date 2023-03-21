@@ -102,6 +102,15 @@ const Resume=()=>{
             
             <div className='projects'> 
             <h2 className='title3'>Projects <a href = "https://github.com/DavidDeCosta">Github</a></h2>
+            <div className='box'>
+                <h4>Resume Webpage</h4>
+                  <p>
+                  I designed and built a resume website using HTML, CSS, and ReactJS for layout and organization, while
+                  utilizing NodeJS for efficient client-server interaction. I used NPM as my package manager, including the Heroku
+                  CLI, and utilized Git for version control and deployment on both GitHub and Heroku.
+
+                  </p>
+              </div>   
               <div className='box'>
                 <h4>Dijkstra's Algorithm</h4>
                   <p>
