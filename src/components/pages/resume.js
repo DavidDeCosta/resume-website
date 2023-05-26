@@ -57,7 +57,7 @@ const Resume=()=>{
           <div className='rightBox'>
             <div className='about'>
               <h2 className='title2'>Profile</h2>
-              <p>I have always been competitive due to growing up playing sports. Chess and puzzles have been a lifelong hobby. Software development is like
+              <p>I have always liked working in teams due to growing up playing sports. Chess and puzzles have been a lifelong hobby. Software development is like
                   a puzzle, and I love the challenge.</p>
             </div>
             <div className='about-skills'>
